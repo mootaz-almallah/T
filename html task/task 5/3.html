@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Radio, Dropdown, and Checkbox</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <br><br>
+
+            <!-- Gender Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <br><br>
+
+            <!-- Country Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="select  option">select  option</option>
+
+                <option value="jordan">Jordan</option>
+                <option value="egypt">Egypt</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="germany">Germany</option>
+            </select>
+
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" cols="33" required></textarea>
+
+            <br><br>
+
+            <!-- Subscribe Checkbox -->
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe?</label>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
